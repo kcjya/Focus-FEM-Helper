@@ -38,8 +38,6 @@ A software developed based on Abaqus for automatic loading and submission of fla
 
  本篇README.md面向开发者
 
- <img src="images/main.png" alt="main" width="100%" height="100%">
-
  
 ## 目录
 

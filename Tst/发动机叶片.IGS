@@ -1,9 +1,0 @@
-SolidWorks IGES file using analytic representation for surfaces         S      1
-1H,,1H;,10H发动机叶片,46HC:\KNG\Project\Python\Focus\Tst\发动机叶片.IGS,G      1
-15HSolidWorks 2022,15HSolidWorks 2022,32,308,15,308,15,10H发动机叶片,   G      2
-1.,2,2HMM,50,0.125,13H240413.202845,1E-08,499990.,3HKNG,,11,0,13H240413.G      3
-202845;                                                                 G      4
-     314       1       0       0       0                        00000200D      1
-     314       0       8       1       0                               0D      2
-314,79.2156862745098,81.9607843137255,93.3333333333333,;               1P      1
-S      1G      4D      2P      1                                        T      1

@@ -1,0 +1,1 @@
+from bin.gui import res_rc

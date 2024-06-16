@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>883</width>
+    <height>659</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>板材属性</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>2</number>
+   </property>
+   <property name="topMargin">
+    <number>2</number>
+   </property>
+   <property name="rightMargin">
+    <number>2</number>
+   </property>
+   <property name="bottomMargin">
+    <number>2</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame_2">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="2,1">
+      <item>
+       <widget class="QTableWidget" name="main_property">
+        <attribute name="horizontalHeaderCascadingSectionResizes">
+         <bool>false</bool>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>板材长(H)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>板材宽(W)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>板材厚度(h)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>激光能量(E)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>光斑尺寸(Spot_Size)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>接搭率(LR)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>光斑列数量(CC)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>光斑行数量(RC)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>无限元宽度(INFT)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>全局网格尺寸(Global_Size)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>最大网格尺寸(Max_Size)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>最小网格尺寸(Min_Size)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>分析步时间(Period)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>密度(Density)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>弹性模量(Elastic)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>塑性(Plastic)</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>泊松比(Poisson)</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>参数值1</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>参数值2</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>参数值3</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>26</string>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>26</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>10</string>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string>0.3</string>
+         </property>
+        </item>
+        <item row="6" column="0">
+         <property name="text">
+          <string>5</string>
+         </property>
+        </item>
+        <item row="7" column="0">
+         <property name="text">
+          <string>5</string>
+         </property>
+        </item>
+        <item row="8" column="0">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item row="9" column="0">
+         <property name="text">
+          <string>0.15</string>
+         </property>
+        </item>
+        <item row="10" column="0">
+         <property name="text">
+          <string>0.15</string>
+         </property>
+        </item>
+        <item row="11" column="0">
+         <property name="text">
+          <string>0.05</string>
+         </property>
+        </item>
+        <item row="12" column="0">
+         <property name="text">
+          <string>3E-5</string>
+         </property>
+        </item>
+        <item row="13" column="0">
+         <property name="text">
+          <string>4.56E-9</string>
+         </property>
+        </item>
+        <item row="14" column="0">
+         <property name="text">
+          <string>110000</string>
+         </property>
+        </item>
+        <item row="15" column="0">
+         <property name="text">
+          <string>980</string>
+         </property>
+        </item>
+        <item row="15" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="16" column="0">
+         <property name="text">
+          <string>0.3</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_3">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="python">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_8">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <property name="spacing">
+             <number>5</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_5">
+              <property name="text">
+               <string>INP文件名</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>130</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="inp_name">
+              <property name="text">
+               <string>INPUT</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_11">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_10">
+            <property name="spacing">
+             <number>5</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_8">
+              <property name="text">
+               <string>多核运算</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_8">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>130</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="cpus">
+              <property name="minimumSize">
+               <size>
+                <width>70</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="sizeIncrement">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="suffix">
+               <string/>
+              </property>
+              <property name="value">
+               <number>8</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_7">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <property name="spacing">
+             <number>5</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="text">
+               <string>单元类型</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>130</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QComboBox" name="elem_type">
+              <item>
+               <property name="text">
+                <string>C3D8R</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_9">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <property name="spacing">
+             <number>5</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_6">
+              <property name="text">
+               <string>光斑类型</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_6">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>130</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QComboBox" name="spot_type">
+              <item>
+               <property name="text">
+                <string>Round</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Square</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_13">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_12">
+            <property name="spacing">
+             <number>5</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_9">
+              <property name="text">
+               <string>自定义幅值</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_9">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>130</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="magnitude">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="using_magnitude">
+              <property name="text">
+               <string>使用?</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_6">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <property name="spacing">
+             <number>5</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="text">
+               <string>幅值分布(Expression)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>130</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="expression">
+           <property name="text">
+            <string>exp(-2*(sqrt(X**2+Y**2)/2.0)**10 )</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_10">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_9">
+            <property name="spacing">
+             <number>5</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_7">
+              <property name="text">
+               <string>场输出(FOR)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_7">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>130</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="FOR">
+           <property name="text">
+            <string>&quot;S&quot;,&quot;U&quot;,&quot;V&quot;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_4">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <property name="spacing">
+             <number>5</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="text">
+               <string>JOHNSON_COOK</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>113</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="jc_check">
+              <property name="text">
+               <string>使用?</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTableWidget" name="jc_list">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <row>
+            <property name="text">
+             <string>A</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>B</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>n</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>m</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Melting</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Transition</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>C</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Epsilon</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>参数值</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>备注</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string>1235</string>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string>1217</string>
+            </property>
+           </item>
+           <item row="2" column="0">
+            <property name="text">
+             <string>0.2246</string>
+            </property>
+           </item>
+           <item row="3" column="0">
+            <property name="text">
+             <string>1.3</string>
+            </property>
+           </item>
+           <item row="4" column="0">
+            <property name="text">
+             <string>1080</string>
+            </property>
+           </item>
+           <item row="4" column="1">
+            <property name="text">
+             <string>&gt;Tramsition</string>
+            </property>
+           </item>
+           <item row="5" column="0">
+            <property name="text">
+             <string>980</string>
+            </property>
+           </item>
+           <item row="5" column="1">
+            <property name="text">
+             <string>&lt;Melting</string>
+            </property>
+           </item>
+           <item row="6" column="1">
+            <property name="text">
+             <string>(Optional)</string>
+            </property>
+           </item>
+           <item row="7" column="1">
+            <property name="text">
+             <string>(Optional)</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_5">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <property name="spacing">
+             <number>5</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="text">
+               <string>冲击幅值(Amp)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>130</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="amp_check">
+              <property name="text">
+               <string>使用?</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTableWidget" name="amp_list">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <attribute name="verticalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>新建行</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>时间</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>幅值</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </item>
+           <item row="0" column="1">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string>2E-9</string>
+            </property>
+           </item>
+           <item row="1" column="1">
+            <property name="text">
+             <string>0.14</string>
+            </property>
+           </item>
+           <item row="2" column="0">
+            <property name="text">
+             <string>4E-9</string>
+            </property>
+           </item>
+           <item row="2" column="1">
+            <property name="text">
+             <string>0.26</string>
+            </property>
+           </item>
+           <item row="3" column="0">
+            <property name="text">
+             <string>9E-9</string>
+            </property>
+           </item>
+           <item row="3" column="1">
+            <property name="text">
+             <string>0.98</string>
+            </property>
+           </item>
+           <item row="4" column="0">
+            <property name="text">
+             <string>1E-8</string>
+            </property>
+           </item>
+           <item row="4" column="1">
+            <property name="text">
+             <string>1</string>
+            </property>
+           </item>
+           <item row="5" column="0">
+            <property name="text">
+             <string>1.2E-8</string>
+            </property>
+           </item>
+           <item row="5" column="1">
+            <property name="text">
+             <string>0.96</string>
+            </property>
+           </item>
+           <item row="6" column="0">
+            <property name="text">
+             <string>1.8E-8</string>
+            </property>
+           </item>
+           <item row="6" column="1">
+            <property name="text">
+             <string>0.8</string>
+            </property>
+           </item>
+           <item row="7" column="0">
+            <property name="text">
+             <string>2.5E-8</string>
+            </property>
+           </item>
+           <item row="7" column="1">
+            <property name="text">
+             <string>0.5</string>
+            </property>
+           </item>
+           <item row="8" column="0">
+            <property name="text">
+             <string>8E-8</string>
+            </property>
+           </item>
+           <item row="8" column="1">
+            <property name="text">
+             <string>0.2</string>
+            </property>
+           </item>
+           <item row="9" column="0">
+            <property name="text">
+             <string>1.8E-7</string>
+            </property>
+           </item>
+           <item row="9" column="1">
+            <property name="text">
+             <string>0.05</string>
+            </property>
+           </item>
+           <item row="10" column="0">
+            <property name="text">
+             <string>2E-7</string>
+            </property>
+           </item>
+           <item row="10" column="1">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_12">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_11">
+            <property name="spacing">
+             <number>5</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QPushButton" name="plot_amp">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>绘图</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="export_data">
+        <property name="text">
+         <string>导出</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="clear_all">
+        <property name="text">
+         <string>清空</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="plot_path">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>绘制路径</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="check_data">
+        <property name="text">
+         <string>检查</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="generate_python">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>生成Py文件</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="start_job">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>开始分析</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="close">
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
